@@ -7,7 +7,7 @@ import { FaTwitter } from "react-icons/fa";
 
 const Hero = () => {
 return (
-    <div className="grid max-sm:grid-cols-1 lg:grid-cols-2 overflow-hidden max-sm:h-[100vh] lg:h-[100vh]">
+    <div className="grid max-sm:grid-cols-1 lg:grid-cols-2 overflow-hidden max-sm:h-[80vh] lg:h-[100vh]">
     <div className="max-sm:w-[100%] lg:p-10 max-sm:mt-24 lg:mt-36">
         <h3 className='opacity-80 font-light pb-3 max-sm:mt-40'>Hello, I'm</h3>
         <h1 className="max-sm:text-5xl lg:text-7xl lg:-ms-1.5 font-bold">Bhavishya</h1>

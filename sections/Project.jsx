@@ -3,8 +3,8 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
 const Project = () => {
 return (
-    <div className="max-w-5xl mx-auto py-12" id='projects'>
-        <p className="text-7xl text-center">Projects</p>
+    <div className="lg:max-w-5xl mx-auto py-12" id='projects'>
+        <p className="max-sm:text-5xl lg:text-7xl text-center">Projects</p>
         <hr className="w-[18%] mx-auto border-t-4 rounded-xl border-gray-500 mt-5" />
         <Tabs defaultValue="Prompt-Debugger" className="w-full py-10">
             <TabsList>
