@@ -4,6 +4,7 @@ import React from 'react';
 import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 const Hero = () => {
 return (
@@ -21,14 +22,14 @@ return (
     >
     </div>
     <div className="max-sm:hidden lg:relative -top-[390px] left-[1240px] flex flex-col gap-4 mt-20 text-3xl">
-    <Link href="https://facebook.com/yourprofile" target="_blank" rel="noopener noreferrer">
-        <FaFacebook className="hover:text-blue-600 transition-all cursor-pointer" />
+    <Link href="https://github.com/bhav09" target="_blank" rel="noopener noreferrer">
+        <FaGithub className="transition-all cursor-pointer" />
     </Link>
-    <Link href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
-        <FaLinkedin className="hover:text-blue-800 transition-all cursor-pointer" />
+    <Link href="https://www.linkedin.com/in/bhavishya-pandit/" target="_blank" rel="noopener noreferrer">
+        <FaLinkedin className="transition-all cursor-pointer" />
     </Link>
-    <Link href="https://twitter.com/yourprofile" target="_blank" rel="noopener noreferrer">
-        <FaTwitter className="hover:text-blue-400 transition-all cursor-pointer" />
+    <Link href="https://x.com/BhavishyaP9" target="_blank" rel="noopener noreferrer">
+        <FaTwitter className="transition-all cursor-pointer" />
     </Link>
     </div>
     </div>
